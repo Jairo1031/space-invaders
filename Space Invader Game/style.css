@@ -1,0 +1,35 @@
+.grid {
+  width: 300px;
+  height: 300px;
+  border: solid 4px #ddff00;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(./assets/Alien\ world\ four.jpeg);
+  background-size: cover;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  border-radius: 10px;
+  background-image: url(./assets/alien.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.shooter {
+  background-image: url(./assets/spaceship.svg);
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.laser {
+  background-color: #3333cc;
+}
+
+.boom {
+  background-color: #ff0033;
+}
